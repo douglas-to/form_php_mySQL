@@ -15,5 +15,5 @@
 		$mysqli->query("INSERT INTO users (name, email, password) VALUES('$name', '$email', '$password')");	
 	}
 
-	header('Location: ../login.php');
+	header('Location: ../index.php');
 ?>
